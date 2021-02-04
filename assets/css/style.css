@@ -8,21 +8,41 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Changed header padding */
+
 .header {
-    padding: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 0px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+/* added nav style here, and changed nav padding*/
+
+.nav {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/*changed class to regular tag*/
+
+h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+/*.header h1 .seo {
     color: #d9dcd6;
 }
+wrong color and unnecessary*/
 
 .header div {
     padding-top: 15px;
@@ -32,11 +52,11 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+.nav div ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.nav div ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -50,14 +70,16 @@ p {
     font-size: 16px;
 }
 
-.hero {
+#meetingPic {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    /* background-image: url("../images/digital-marketing-meeting.jpg"); */
     background-size: cover;
     background-position: center;
 }
+
+/* changed to more discriptive id */
 
 .float-left {
     float: left;
@@ -195,6 +217,6 @@ p {
     text-align: center;
 }
 
-.footer h2 {
+.footer h4 {
     font-size: 20px;
 }
